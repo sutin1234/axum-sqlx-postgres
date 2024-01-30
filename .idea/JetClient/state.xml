@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="2082b3bf-ea8a-4377-b2f5-e05583b44207" />
+          <option name="name" value="axum-sqlx-postgres" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="id" value="e49a8ab3-c194-41a0-95a5-14362a4464e9" />
+                <option name="method" value="GET" />
+                <option name="name" value="health-checker" />
+                <option name="url" value="http://localhost:8000/api/health-checker" />
+              </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;title&quot;: &quot;You'll learn how to build a CRUD API with Golang&quot;,&#10;  &quot;content&quot;: &quot;Fastapi is really easy to use&quot;,&#10;  &quot;category&quot;: &quot;Go Fiber&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="fdef94e6-d82b-4d8b-a88e-2321efd4f1f4" />
+                <option name="method" value="POST" />
+                <option name="name" value="create-note" />
+                <option name="url" value="http://localhost:8000/api/notes" />
+              </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;published&quot;: true&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="3dafaf63-e49f-45e7-b94b-f923a280980c" />
+                <option name="method" value="PATCH" />
+                <option name="name" value="update-note" />
+                <option name="url" value="http://localhost:8000/api/notes/dd434e38-9ff0-455b-bdcb-3daf8c6d59c7" />
+              </requestState>
+              <requestState>
+                <option name="id" value="ccaf33b2-c862-4a20-9505-400e42a07c1a" />
+                <option name="method" value="GET" />
+                <option name="name" value="get note" />
+                <option name="url" value="http://localhost:8000/api/notes/dd434e38-9ff0-455b-bdcb-3daf8c6d59c7" />
+              </requestState>
+              <requestState>
+                <option name="id" value="d3dee15d-4204-4ed5-b47e-535a30b6dff1" />
+                <option name="method" value="DELETE" />
+                <option name="name" value="delete note" />
+                <option name="url" value="http://localhost:8000/api/notes/dd434e38-9ff0-455b-bdcb-3daf8c6d59c7" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="1605b0ea-ebf4-4e35-abbb-37433a8ea063" />
+  </component>
+</project>
